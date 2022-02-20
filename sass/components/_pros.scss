@@ -6,15 +6,15 @@
   margin-top: -1px;
 }
 
-.pros-list{
+.pros{
   display: flex;
 
    list-style: none;
 }
-.pros-list>.pros-item:not(:last-child){
+.pros__item:not(:last-child){
  margin-right: 30px;
 }
-.pros-title {
+.pros__title {
   margin-bottom: 10px;
 
   color: $title-text-color;
@@ -23,12 +23,12 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.pros-text {
+.pros__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.pros-tumb{
+.pros__tumb{
   height: 120px;
   display: flex;
   align-items: center;
@@ -37,3 +37,4 @@
   margin-bottom: 30px;
   border-radius: 4px;
 }
+/*pros__icons*/
