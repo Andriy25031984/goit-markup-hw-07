@@ -18,7 +18,7 @@ min-height:  581px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background: #FFFFFF;
+  background: $white-color;
   cursor: pointer;
   
   top: 8px;
@@ -38,7 +38,7 @@ line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: $title-text-color;
 }
 .form{
 width: 100%;
@@ -130,7 +130,7 @@ display: flex;
 width: 16px;
 height: 15px;
 
-  border: 2px solid #212121;
+  border: 2px solid $title-text-color;
   border-radius: 2px;
 
   margin-right: 7px;
@@ -155,7 +155,7 @@ background-origin: border-box;
 margin-top: 30px;
 
 display: flex;
-background: #2196F3;
+background:$accent-color;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 justify-content: center;
@@ -169,7 +169,7 @@ line-height: 1.87;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: $white-color;
  margin-left: auto;
  margin-right: auto;
 }
