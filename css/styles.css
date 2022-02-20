@@ -100,9 +100,9 @@ background-color: var(--accent-color);
   left: 0;
   bottom: -1px;
   border-radius: 2px;
-}*/
+}
 /* contacts */
-.contakt{
+/*.contakt{
   display: flex;
   margin-left: auto;
 }
