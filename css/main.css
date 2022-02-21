@@ -459,8 +459,8 @@ img {
 }
 
 .overlay {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url "(../images/Img(1)(1).jpg)";
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url "(../images/Img(1)(1).jpg)";
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Img(1)(1).jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img(1)(1).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -468,6 +468,20 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal {
@@ -769,7 +783,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
-  color: var(--white-color);
+  color: #ffffff;
   right: 0;
   bottom: 0;
 }
@@ -785,7 +799,6 @@ img {
   padding-bottom: 27px;
 }
 
-/*overly*/
 .team {
   background-color: #f5f4fa;
 }
@@ -804,12 +817,12 @@ img {
 .team__item {
   width: 270px;
   height: 428px;
-  background-color: var(--white-color);
+  background-color: #ffffff;
 }
 
 .team__title {
   margin-bottom: 50px;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -826,7 +839,7 @@ img {
 
 .team__name-title {
   margin-bottom: 10px;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -1162,8 +1175,8 @@ img {
   fill: #ffffff;
 }
 
-.netvorks__icon--grey {
-  fill: rgba(255, 255, 255, 0.1);
+.netvorks__link--grey {
+  fill: #AFB1B8;
   border-radius: 50%;
 }
 
