@@ -33,3 +33,16 @@ display: flex;
   font-size: 16px;
   line-height: 1.87;
 }
+.overlay{
+ background-image:linear-gradient(to right,
+   rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4)),
+ url("../images/Img\(1\)\(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
