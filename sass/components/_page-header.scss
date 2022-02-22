@@ -33,7 +33,6 @@
     margin-right: 50px;}
 .line{
   position: relative;
-  min-width: 48px;
 }
 .line::after{
   position: absolute;
@@ -41,9 +40,7 @@
 background-color:$accent-color;
   background-repeat: no-repeat;
   width: 100%;
-  display: block;
   height: 4px;
-  left: 0;
   bottom: -1px;
   border-radius: 2px;
 }
