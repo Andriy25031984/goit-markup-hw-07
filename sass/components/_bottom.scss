@@ -41,9 +41,6 @@ margin-bottom: 20px;
   display: flex;
   align-items: baseline;
 }
-.bottom__link:hover,.bottom__link:focus{
-  background-color: $accent-color;
-}
 .bottom__form{
   position: relative;
   
@@ -56,8 +53,6 @@ margin-bottom: 20px;
   background: #2F303A;
   padding-left: 16px;
 }
-
-
 .icon-subscribe{
   padding-left: 10px;
 }

@@ -36,11 +36,13 @@ min-height:  581px;
   top: 8px;
   right: 8px;
 
-   transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-.closed:hover{
+  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover{
   fill: $accent-color;
 }
+}
+
 .form__title{
   margin-bottom: 12px;
   font-weight: 700;
@@ -58,10 +60,7 @@ position: relative;
 width: 448px;
 
 margin-bottom: 10px;
- transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-.form__grup:focus-visible{
-  color: $accent-color;
+
 }
 .form__text{
   display: inline-block;
@@ -81,20 +80,21 @@ border-radius: 4px;
 cursor: pointer;
 
 padding-left: 42px;
- transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
 }
 .form__imput:focus{
-  outline: none;
-  border:1px solid $accent-color;
-}
-.form__imput:focus + .form__icon{
-fill:$accent-color;
+outline: none;
+border:1px solid $accent-color;
 }
 .form__icon{
 position: absolute;
 top: 50%;
 left: 12px;
  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.form__imput:focus  +.form__icon{
+fill: $accent-color;
 }
 
 .form__coment{
@@ -106,14 +106,15 @@ left: 12px;
 .form__coments{
 height: 120px;
  
-  padding: 12px 16px;
-   transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1)
+padding: 12px 16px;
+transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .form__coments:focus{
 outline: none;
 border:1px solid $accent-color;
-
 }
+
 .form__coments::placeholder{
 font-size: 14px;
 line-height: 1.14;
@@ -139,23 +140,25 @@ display: flex;
 width: 16px;
 height: 15px;
 
-  border: 2px solid $title-text-color;
-  border-radius: 2px;
+border: 2px solid $title-text-color;
+border-radius: 2px;
 
-  margin-right: 7px;
+margin-right: 7px;
 
 }
 .form__contract{
   text-decoration: none;
 }
 .checkbox{
-  appearance: none;
-  position: absolute;
-}
-.checkbox:checked + .form-tick{
-  border-color: transparent;
+appearance: none;
+position: absolute;
+
+&:checked + .form-tick{
+border-color: transparent;
 background-color: $accent-color;
 background-image: url(../images/full-check.svg);
 background-size: contain;
 background-origin: border-box;
 }
+}
+
