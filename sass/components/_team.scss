@@ -9,9 +9,8 @@ list-style: none;
  margin-right: 30px;
 }
 .team__item{
-  width: 270px;
-  height: 428px;
-  background-color: $white-color;
+width: 270px;
+background-color: $white-color;
 }
 .team__title {
   margin-bottom: 50px;
@@ -42,4 +41,5 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
