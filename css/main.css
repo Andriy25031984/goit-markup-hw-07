@@ -304,6 +304,10 @@ body {
   margin-right: 50px;
 }
 
+.site-nav__link:hover, .site-nav__link:focus {
+  color: #2196f3;
+}
+
 .line {
   position: relative;
 }
@@ -345,10 +349,6 @@ body {
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contakt__link__link:hover, .contakt__link__link:focus {
-  color: #2196f3;
 }
 
 .contakt__link:hover,
@@ -818,12 +818,12 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bottom__link__link:hover, .bottom__link__link:focus {
-  color: #2196f3;
-}
-
 .bottom__link--white {
   color: #ffffff;
+}
+
+.bottom__link:hover, .bottom__link:focus {
+  color: #2196f3;
 }
 
 .bottom__title {
@@ -855,6 +855,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: #2F303A;
   padding-left: 16px;
+  color: #ffffff;
 }
 
 .icon-subscribe {
@@ -957,8 +958,8 @@ img {
   color: #FFFFFF;
   top: 0;
   left: 0;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(101%);
+          transform: translateY(101%);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1002,9 +1003,11 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .netvorks__link:hover, .netvorks__link:focus {
@@ -1061,14 +1064,12 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   fill: #AFB1B8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client__link:hover, .client__link:focus {
   border-color: #2196f3;
-  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2196f3;
 }
 
